@@ -15,13 +15,15 @@ class Hero extends Component {
 
     if (page.path === prefixLink('/')) {
       hero = (
-        <section className="index hero section">
-          <h1 className="title">
-            {config.siteTitle}
-            <small className="sub description">
-              {config.siteDescription}
-            </small>
-          </h1>
+        <section className="fluid index hero section">
+          <figure className="figure container">
+            <h1 className="title">
+              {config.siteTitle}
+              <small className="sub description">
+                {config.siteDescription}
+              </small>
+            </h1>
+          </figure>
         </section>
       );
     } else if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
