@@ -1,14 +1,6 @@
-# gatsby-oRanger
+# gatsby-productpage
 
-With Pulp oRanger [gatsby](https://github.com/gatsbyjs/gatsby) scaffold.
-
-## TODO
-
-* sass for variables (weigh the benefits)
-* update npm packages (gatsby 1.0 in the works)
-* create components for html elements (button, li, p, a, etc. - or use existing framework)
-
-> see comments in code for more @TODO
+[gatsby](https://github.com/gatsbyjs/gatsby) product page scaffold.
 
 ## Running in development
 `gatsby develop`
