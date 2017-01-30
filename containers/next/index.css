@@ -1,0 +1,25 @@
+/* next article container */
+.next.figure {
+	max-width: 30em;
+}
+
+/* next article cta */
+.next.figure .cta {
+	margin: 0;
+	color: #fff;
+	font-size: 0.78615rem;
+	line-height: 1;
+}
+
+/* next article link */
+.next.figure .link {
+	text-decoration: none;
+}
+
+/* next article title */
+.next.figure .link .title {
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1;
+	transition: all 250ms;
+}

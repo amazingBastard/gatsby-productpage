@@ -1,0 +1,7 @@
+siteTitle="Product Page"
+siteDescription="Short description of the product"
+siteUrl= "http://damirvazgird.com"
+siteVersion= "1.0.0"
+copyrightMessage= "<a href='http://damirvazgird.com' target='_blank'>Damir Vazgird</a>. Code available on <a href='https://github.com/amazingBastard/gatsby-productpage' target='_blank'>GitHub</a>."
+linkPrefix= ""
+#gaCode= "UA-XXX-X"

@@ -1,0 +1,26 @@
+/* featured post item */
+.blog.section .featured.posts.list .post.item {
+	flex: none;
+	width: 100%;
+}
+
+@media only screen and (min-width: 62em) {
+	.blog.section .featured.posts.list .post.item {
+		width: 33.3333%;
+	}
+}
+
+/* featured post link */
+.blog.section .featured.posts.list .post.item .post.link {
+	text-decoration: none;
+}
+
+/* featured post title */
+.blog.section .featured.posts.list .post.item .post.link .title {
+	transition: all 250ms;
+}
+
+/* featured post link title hover state */
+.blog.section .featured.posts.list .post.item .post.link:hover .title {
+	color: #e76600;
+}

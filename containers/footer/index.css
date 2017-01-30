@@ -1,0 +1,20 @@
+/* footer container */
+.footer {
+	display: flex;
+	z-index: 1;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+/* copyright message */
+.footer .copyright.figure .message {
+	margin: 0;
+	font-size: .8rem;
+	line-height: 1;
+}
+
+/* copyright message link */
+.footer .copyright.figure .message .link {
+	text-decoration: underline;
+}

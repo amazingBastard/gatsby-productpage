@@ -1,0 +1,7 @@
+/* CORE ANIMATIONS */
+
+/* FOR: global css animations and their classes names */
+/* FOR EXAMPLE: animated, fade-in, fade-out, @keyframes animate, @keyframes fadeIn, @keyframes fadeOut*/
+/* NOT FOR: global element styles or element states */
+/* NOT FOR EXAMPLE: section, figure, section.animated.fade-in, button:hover, a:hover */
+/* WARNING: CSS animations are better for animations that you don’t want to stop or adjust after they are triggered */

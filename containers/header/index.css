@@ -1,0 +1,50 @@
+/* header container */
+.header {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.83333rem;
+  z-index: 3;
+}
+
+/* header headroom-wrapper */
+.header .headroom-wrapper {
+  position: relative;
+  width: auto;
+  height: auto !important;
+}
+
+/* header headroom unpinned */
+.header .headroom-wrapper .headroom.headroom--unpinned {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* header headroom pinned */
+.header .headroom-wrapper .headroom.headroom--pinned {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.83333rem;
+}
+
+/* header logo */
+.header .headroom-wrapper .headroom .link .logo {
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	padding: .3rem;
+	vertical-align: middle;
+  border: .15rem solid #aaa;
+  background-color: #fff;
+  filter: grayscale(100%);
+  transition: all 250ms;
+}
+
+/* header logo hover state */
+.header .headroom-wrapper .headroom .link:hover .logo {
+  border-color: #e76600;
+  filter: grayscale(0);
+}

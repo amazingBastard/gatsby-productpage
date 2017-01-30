@@ -1,0 +1,164 @@
+/* section */
+.section {
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 42em;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 3.33333rem;
+	padding: 0.83333rem;
+}
+
+@media only screen and (min-width: 62em) {
+	.section {
+		max-width: 58em;
+	}
+}
+
+/* section fluid */
+.section.fluid {
+	max-width: 100%;
+	border-top: 0.15rem solid #cf3c44;
+}
+
+/* figure */
+.figure {
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0.83333rem;
+}
+
+/* figure container */
+.figure.container {
+	max-width: 40.750em;
+	padding: 0.83333rem 0;
+}
+
+@media only screen and (min-width: 62em) {
+	.figure.container {
+		max-width: 56.750em;
+	}
+
+	/* figure flex */
+	.figure.flex {
+		display: flex;
+		align-items: flex-start;
+		padding-top: 3.33333rem;
+		padding-bottom: 3.33333rem;
+	}
+}
+
+/* title */
+.title {
+	display: block;
+	font-weight: 700;
+}
+
+.title .sub {
+	display: block;
+	color: #aaa;
+	font-size: 50%;
+	font-weight: 400;
+	line-height: 1;
+}
+
+/* list */
+.list {
+	display: block;
+	position: relative;
+	margin: 0;
+	margin-left: 0.83333rem;
+	padding: 0;
+}
+
+.list .item {
+	position: relative;
+	padding: 0;
+}
+
+/* flex list */
+.list.flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -0.83333rem;
+	list-style: none;
+}
+
+.list.flex .item {
+	flex: 1;
+	width: auto;
+	padding-left: 0.83333rem;
+}
+
+@media only screen and (min-width: 62em) {
+	.list.flex.contained {
+		width: 220em;
+	}
+}
+
+/* inline list */
+.list.inline {
+	display: inline;
+	list-style: none;
+	margin: 0;
+}
+
+.list.inline .item {
+	display: inline-block;
+}
+
+/* unstyled list */
+.list.unstyled {
+	list-style: none;
+}
+
+/* image */
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* image thumb */
+.image.thumb {
+	max-width: 9.375em;
+}
+
+/* link */
+.link {
+	position: relative;
+}
+
+/* button */
+.button {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 0.83333rem;
+	padding: 0.83333rem;
+	outline: 0;
+	border: 0.10417rem solid #a0a0a0;
+	background-color: transparent;
+	color: #222;
+	text-align: center;
+	line-height: 1;
+	transition: all 250ms;
+}
+
+.button:hover {
+	border-color: #93B556;
+	color: #cf3c44;
+}
+
+.button:active {
+	background-color: #cf3c44;
+	border-color: #cf3c44;
+	color: #fff;
+}
