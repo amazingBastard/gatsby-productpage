@@ -9,7 +9,9 @@ class Product extends Component {
 
 		return (
 			<li className="product item">
-				<Link className="post link" to={prefixLink(meta.path)}>
+				<Link className="product link"
+							to={prefixLink(meta.path)}
+							style={{background: `url(${meta.data.image})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
 					<h4 className="title">
 						{meta.data.title}
 					</h4>

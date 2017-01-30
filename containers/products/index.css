@@ -10,3 +10,12 @@
     width: 33.3333%
   }
 }
+
+/* prodicts list item link */
+.products.section .figure.container .products.list .product.item .product.link {
+  display: flex;
+  min-height: 25vh;
+  justify-content: center;
+  align-items: flex-end;
+  text-decoration: none;
+}
