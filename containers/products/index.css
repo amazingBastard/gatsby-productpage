@@ -1,0 +1,12 @@
+/* products list item */
+.products.section .figure.container .products.list .product.item {
+  flex: none;
+  width: 100%;
+}
+
+@media only screen and (min-width: 48em) {
+  .products.section .figure.container .products.list .product.item {
+    flex: 1;
+    width: 33.3333%
+  }
+}
