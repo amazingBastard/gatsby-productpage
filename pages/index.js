@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import DocumentTitle from 'react-document-title';
 import Hero from 'containers/hero/';
+import Products from 'containers/products';
 import { rhythm } from 'utils/typography';
 import { config } from 'config';
 
@@ -24,6 +25,7 @@ class Index extends Component {
       <DocumentTitle title={config.siteTitle}>
         <main className="index page" style={style.page}>
           <Hero route={route} />
+          <Products route={route} />
         </main>
       </DocumentTitle>
     );

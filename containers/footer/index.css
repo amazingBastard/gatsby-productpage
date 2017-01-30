@@ -4,13 +4,12 @@
 	z-index: 1;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 }
 
 /* copyright message */
 .footer .copyright.figure .message {
 	margin: 0;
-	font-size: .8rem;
+	font-size: 0.63333rem;
 	line-height: 1;
 }
 
